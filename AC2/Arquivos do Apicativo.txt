@@ -1,4 +1,9 @@
 ///////////////////////////////////////////////////////
+colocar essa parada aqui 
+
+buildFeatures{
+        viewBinding = true
+    }
 ---------- MainActivity.kt ----------
 package br.com.ahcatani.lmsapp
 
