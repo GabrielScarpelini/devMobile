@@ -2,7 +2,7 @@
 
 ---------- DebugActivity.kt ----------
 ///////////////////////////////////////////////////////
-package br.com.ahcatani.lmsapp3
+package com.gabrielsp.continuationac2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -56,7 +56,7 @@ open class DebugActivity : AppCompatActivity() {
 ///////////////////////////////////////////////////////
 ---------- LoginActivity.kt ----------
 ///////////////////////////////////////////////////////
-package br.com.ahcatani.lmsapp3
+package com.gabrielsp.continuationac2
 
 import android.app.AlertDialog
 import android.content.Context
@@ -64,7 +64,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import br.com.ahcatani.lmsapp3.databinding.ActivityLoginBinding
+import com.gabrielsp.continuationac2.databinding.ActivityLoginBinding
 
 class LoginActivity : DebugActivity() {
 
@@ -110,13 +110,13 @@ class LoginActivity : DebugActivity() {
 ///////////////////////////////////////////////////////
 ---------- MainActivity.kt ----------
 ///////////////////////////////////////////////////////
-package br.com.ahcatani.lmsapp3
+package com.gabrielsp.continuationac2
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import br.com.ahcatani.lmsapp3.databinding.ActivityMainBinding
+import com.gabrielsp.continuationac2.databinding.ActivityMainBinding
 
 class MainActivity : DebugActivity() {
 
@@ -143,12 +143,12 @@ class MainActivity : DebugActivity() {
 ///////////////////////////////////////////////////////
 ---------- PaisesActivity.kt ----------
 ///////////////////////////////////////////////////////
-package br.com.ahcatani.lmsapp3
+package com.gabrielsp.continuationac2
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import br.com.ahcatani.lmsapp3.databinding.ActivityPaisesBinding
+import com.gabrielsp.continuationac2.databinding.ActivityPaisesBinding
 
 class PaisesActivity : AppCompatActivity() {
 
@@ -209,7 +209,7 @@ class PaisesActivity : AppCompatActivity() {
 
 ---------- TelaInicialActivity.kt ----------
 ///////////////////////////////////////////////////////
-package br.com.ahcatani.lmsapp3
+package com.gabrielsp.continuationac2
 
 import android.app.AlertDialog
 import android.content.Context
@@ -217,7 +217,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import br.com.ahcatani.lmsapp3.databinding.ActivityTelaInicialBinding
+import com.gabrielsp.continuationac2.databinding.ActivityTelaInicialBinding
 
 class TelaInicialActivity : DebugActivity() {
 
@@ -460,6 +460,8 @@ class TelaInicialActivity : DebugActivity() {
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
+
+        androidx.appcompat:appcompat-resources
 
 </LinearLayout>
 ///////////////////////////////////////////////////////
