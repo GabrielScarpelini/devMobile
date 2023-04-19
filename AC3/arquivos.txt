@@ -177,7 +177,7 @@ class ParametroActivity : DebugActivity() {
 }
 
 /////////////////////////////////////////////////////////
-                activity_resultado.kt
+                activity_resultado.xml
 /////////////////////////////////////////////////////////
 
 <?xml version="1.0" encoding="utf-8"?>
